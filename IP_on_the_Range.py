@@ -6,7 +6,7 @@ RFC1918_172 = IPNetwork('172.16.0.0/12')
 RFC1918_192 = IPNetwork('192.168.0.0/16')
 
 #Test IP
-ip = '172.25.25.0'
+ip = '172.25.25.100'
 
 if IPAddress(ip) in ((IPNetwork(RFC1918_10))):
     print('Found', ip)

@@ -1,2 +1,1 @@
-# netaddr
-#You can find an ip on the range using this python lib
+Finding local IP addresses using Python's
